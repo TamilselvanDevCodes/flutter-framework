@@ -1,0 +1,96 @@
+# Miscellaneous
+*.class
+*.log
+*.pyc
+*.swp
+.DS_Store
+.atom/
+.build/
+.buildlog/
+.history
+.svn/
+.swiftpm/
+migrate_working_dir/
+
+# IntelliJ/Android Studio
+*.iml
+*.ipr
+*.iws
+.idea/
+
+# VS Code
+.vscode/
+
+# Flutter/Dart/Pub related
+.dart_tool/
+.flutter-plugins
+.flutter-plugins-dependencies
+.packages
+.pub-cache/
+.pub/
+build/
+**/doc/api/
+**/ios/Flutter/.last_build_id
+
+# Symbolication related
+app.*.symbols
+
+# Obfuscation related
+app.*.map.json
+
+# Android-specific
+android/app/debug/
+android/app/profile/
+android/app/release/
+*.jks
+
+# iOS-specific
+ios/Flutter/App.framework
+ios/Flutter/Flutter.framework
+ios/Flutter/Flutter.podspec
+ios/ServiceDefinitions.json
+ios/Runner.xcworkspace/
+ios/Pods/
+ios/.symlinks/
+ios/Flutter/ephemeral/
+ios/.flutter-plugins
+ios/.flutter-plugins-dependencies
+ios/.dart_tool/
+ios/Generated.xcconfig
+ios/.generated/
+
+# macOS-specific
+macos/Flutter/ephemeral/
+macos/Flutter/GeneratedPluginRegistrant.swift
+macos/Runner.xcworkspace/
+macos/.dart_tool/
+macos/.flutter-plugins
+macos/.flutter-plugins-dependencies
+macos/.generated/
+
+# Linux-specific
+linux/flutter/ephemeral/
+linux/.dart_tool/
+linux/.flutter-plugins
+linux/.flutter-plugins-dependencies
+
+# Windows-specific
+windows/flutter/ephemeral/
+windows/.dart_tool/
+windows/.flutter-plugins
+windows/.flutter-plugins-dependencies
+
+# Web-specific
+web/.dart_tool/
+web/.flutter-plugins
+web/.flutter-plugins-dependencies
+
+# Coverage
+coverage/
+*.lcov
+
+
+
+# Packages and build
+Generated.xcconfig
+*.g.dart
