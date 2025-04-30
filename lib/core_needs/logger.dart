@@ -2,26 +2,26 @@ import 'package:logger/logger.dart';
 
 Logger _logger = Logger();
 
-void debugLogger(String message) {
+void debugLog(String message) {
   _logger.d(message, stackTrace: StackTrace.current, time: DateTime.now());
 }
 
-void traceLogger(String message) {
+void traceLog(String message) {
   _logger.t(message, stackTrace: StackTrace.current, time: DateTime.now());
 }
 
-void infoLogger(String message) {
+void infoLog(String message) {
   _logger.i(message, stackTrace: StackTrace.current, time: DateTime.now());
 }
 
-void warningLogger(String message) {
+void warningLog(String message) {
   _logger.w(message, stackTrace: StackTrace.current, time: DateTime.now());
 }
 
-void errorLogger(String message) {
+void errorLog(String message) {
   _logger.e(message, stackTrace: StackTrace.current, time: DateTime.now());
 }
 
-void fatalLogger(String message) {
+void fatalLog(String message) {
   _logger.f(message, stackTrace: StackTrace.current, time: DateTime.now());
 }
