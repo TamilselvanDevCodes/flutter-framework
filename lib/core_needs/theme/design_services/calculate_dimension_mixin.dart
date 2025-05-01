@@ -1,7 +1,7 @@
 import 'package:flutter_framework/core_needs/logger.dart';
-import 'package:flutter_framework/core_needs/theme/app_responsive_limits.dart';
-import 'package:flutter_framework/core_needs/theme/size_constant.dart';
-import 'package:flutter_framework/core_needs/theme/size_model.dart';
+import 'package:flutter_framework/core_needs/theme/design_constants/app_responsive_limits.dart';
+import 'package:flutter_framework/core_needs/theme/design_constants/size_constant.dart';
+import 'package:flutter_framework/core_needs/theme/design_models/size_model.dart';
 
 mixin CalculateDimensionMixin {
 
